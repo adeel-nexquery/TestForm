@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid p-3">
+            <div class="row">
+                <div class="col-4">
+                    <div class="info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6>Information Dossier</h6>
+                            <button class="date">Changer Date</button>
+                        </div>
+                        <div class="bd mt-2 p-2">
+                            <p><strong>Dossier n'6926</strong></p>
+                            <p><em>Cree le : 2016-01-11 09:55:50</em></p>
+                            <p><strong>Facture n : 6971</strong></p>
+                            <p><strong>Montant Facture : 210.00 $</strong></p>
+                            <p><strong>SOLDE (<em>differes inclus)</em> : 0.00$</strong></p>
+                        </div>
+                    </div>
+                    <div class="info my-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6>Info Clients</h6>
+                            <button class="date">Changer Client</button>
+                        </div>
+                        <div class="bd mt-2 p-2">
+                            <p><strong>PARADA</strong></p>
+                            <p>TEL : 0633529681</p>
+                            <p><strong>TEL Mada :</strong></p>
+                            <p><strong>Jours de credit : 0</strong></p>
+                            <p><em>Dernier releve envoye le</em></p>
+                            <p><strong>Commentaries :</strong><em>P/C Mlle RANDRIAMANATENA VOAHANGY TIAHA MISO</em></p>
+                            <p><strong><span style="color: #FF3A00;">Terifs : </span><span
+                                        style="color: #bf9630;">Normal</span></strong></p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6>Information Groupage</h6>
+                            <button class="date">Changer</button>
+                        </div>
+                        <div class="bd mt-2 p-2">
+                            <p><strong>Nom Groupage</strong> M01/16</p>
+                            <p><strong>Num Contaneur : </strong>ECMU 979191/2</p>
+                            <p><strong>De : </strong> MARSEILLE <strong>Peur : </strong> TAMATAVE</p>
+                            <p><strong>Embarquement a</strong> FOS SUR MER</p>
+                            <p><strong>Depart prevue lee</strong></p>
+                            <p><strong>Statut : </strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="info">
+                        <h6>
+                            Dossier Groupage TIPAN
+                        </h6>
+                        <div class="bdRight mt-2">
+                            <div class="d-flex">
+                                <div class="d-flex flex-column col-5">
+                                    <label>Shipper</label>
+                                    <input type="text" placeholder="RANDRIAMANATENA VOAHANGY TIAHA MISO">
+                                </div>
+                                <div class="d-flex flex-column col-5 ms-auto">
+                                    <label>CNEE/NOTIFY</label>
+                                    <input type="text" placeholder="RANDRIAMANATENA VOAHANGY TIAHA MISO">
+                                </div>
+                            </div>
+                            <div class="mt-2 d-flex align-items-center ">
+                                <div class="col-2">
+                                    <label>
+                                        Novier Merchandise:
+                                    </label>
+                                    <select class="form-select" id="inputGroupSelect02">
+                                        <option selected>Select</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex flex-column text-center mx-3">
+                                    <label>
+                                        Neuf:
+                                    </label>
+                                    <div class="text-center mt-1">
+                                        <input class="form-check-input mt-0" type="checkbox" value="">
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        Nb
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        Valuer ($)
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        Poids
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        Volume
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        Mode
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        PU ($)
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <label>
+                                        PT ($)
+                                    </label>
+                                    <input type="text" class="bdInputs">
+                                </div>
+                            </div>
+                            <div class="mt-2">
+                                <label class="me-3">
+                                    Descriptif
+                                </label>
+                                <textarea class="form-control mt-2" placeholder="" id="floatingTextarea2"
+                                    style="height: 74px"></textarea>
+                            </div>
+                            <div class="mt-3">
+                                <div class="text-end">
+                                    <button class="date">Creer</button>
+                                    <button class="date ms-1">Annuler saisie</button>
+                                </div>
+                                <div class="tabelHead mt-2">
+                                    <p class="text-center">Details Groupage Saisis</p>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nature</th>
+                                                <th scope="col">Descriptif</th>
+                                                <th scope="col">No</th>
+                                                <th scope="col">Valeur</th>
+                                                <th scope="col">Poids</th>
+                                                <th scope="col">Vol</th>
+                                                <th scope="col">facturation</th>
+                                                <th scope="col">Pu</th>
+                                                <th scope="col">Cout total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Colls</td>
+                                                <td>Electromenager d'ocassion et vetement d'ocassion</td>
+                                                <td>3.00</td>
+                                                <td>190.00</td>
+                                                <td>150.00</td>
+                                                <td>1.00</td>
+                                                <td>Volume</td>
+                                                <td>180.00</td>
+                                                <td>180.00</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                              <div class="tabelHead mt-5">
+                                    <p class="text-center">Frais at remisis exceptionalles</p>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Montant</th>
+                                                <th scope="col">Commantier</th>
+                                                <!-- <th scope="col">Valeur</th>
+                                                <th scope="col">Poids</th>
+                                                <th scope="col">Vol</th>
+                                                <th scope="col">facturation</th>
+                                                <th scope="col">Pu</th>
+                                                <th scope="col">Cout total</th> -->
+                                            </tr>
+                                        </thead>
+                                        <!-- <tbody>
+                                            <tr>
+                                                <td>Colls</td>
+                                                <td>Electromenager d'ocassion et vetement d'ocassion</td>
+                                                <td>3.00</td>
+                                                <td>190.00</td>
+                                                <td>150.00</td>
+                                                <td>1.00</td>
+                                                <td>Volume</td>
+                                                <td>180.00</td>
+                                                <td>180.00</td>
+                                            </tr>
+
+                                        </tbody> -->
+                                    </table>
+                                    <div>
+                                    <button class="date">Ajout Frais</button>
+                                    <button class="date ms-1">Ajout Remise</button>
+                                    
+                                    </div>
+                                    
+                                </div>
+                            <div class="mt-3">
+                                <!-- <div class="text-end">
+                                    <button class="date">Creer</button>
+                                    <button class="date ms-1">Annuler saisie</button>
+                                </div> -->
+                                <div class="tabelHead mt-2">
+                                    <p class="text-center">Encaissements</p>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Mode de reglement</th>
+                                                <th scope="col">Commentaire</th>
+                                                <th scope="col">Compte</th>
+                                                <th scope="col">Date</th>
+                                                <th scope="col">Montant</th>
+                                                <th scope="col">Par</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Especes</td>
+                                                <td></td>
+                                                <td>LCL z</td>
+                                                <td>11/01/16</td>
+                                                <td>210.00 $</td>
+                                                <td>CED</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <input class="form-check-input mt-0" type="checkbox" value="">
+                                            <label class="ms-2">Reglement</label>
+                                        </div>
+                                        <div>
+                                            <button class="date">Ajout Encaissements</button>
+                                            <button class="date ms-1">Creer Avoir</button>
+                                        </div>
+                                        <div>
+                                            <button class="date">Enregister</button>
+                                            <button class="date ms-1">Quitter Dossier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4 d-flex justify-content-between">
+                                    <button class="date">Imprimer recu</button>
+                                    <button class="date ms-1">Imprimer Facture</button>
+                                    <button class="date">Recu par mail</button>
+                                    <button class="date ms-1">Facture par mail</button>
+                                    <button class="date ms-1">Imprimer les etiquettes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
